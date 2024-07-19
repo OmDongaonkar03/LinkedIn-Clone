@@ -1,0 +1,567 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	height:52px;
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.logo{
+	margin:0.4% 0 0 12%;
+	cursor:pointer;
+}
+.navcontent{
+	display:flex;
+	justify-content:start;
+}
+.searchbar{
+	height:35px;
+	width:300px;
+	border-radius:5px;
+	background-color:#EBF4FA;
+	margin:0.5% 0 0 1%;
+	cursor:text;
+}
+.searchbar p{
+	font-size:15px;
+	color:black;
+	font-family:monospace;
+	padding: 2.5% 0 0 4%;
+}
+.search{
+	display:none;
+}
+.icon{
+	margin:0.2% 2% 0 10%;
+	height:40px;
+	width:40px;
+	color:gray;
+	cursor:pointer;
+}
+.icon:hover{
+	color:black;
+}
+.icons{
+	margin:0.2% 2% 0 0.2%;
+	height:40px;
+	width:50px;
+	color:gray;
+	cursor:pointer;
+}
+.icons:hover{
+	color:black;
+}
+.in{
+	font-size:23px;
+	padding:0.2% 1% 0 38%;
+}
+.txt{
+	font-size:12px;
+	color:gray;
+	padding:15% 1% 0 35%;
+}
+.user{
+	height:25px;
+	width:25px;
+	border-radius:30px;
+	margin:0.2% 0 0 20%;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+}
+.username{
+	font-size:15px;
+	color:gray;
+	padding:6% 0.5% 0 19%;
+}
+.menu{
+	margin:0.2% 0 0 1%;
+	height:40px;
+	width:90px;
+	cursor:pointer;
+}
+.try{
+	margin:0.7% 0 0 1%;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	color:brown;
+	font-size:12px;
+	text-decoration:underline;
+}
+.block1{
+	height:800px;
+	width:340px;
+	background-color:white;
+	margin:5% 0 0 8%;
+	border-radius:8px;
+	float:left;
+}
+.block1 .headline{
+	font-size:16px;
+	color:black;
+	margin:5% 0 0 5%;
+}
+.block1 .mmnbox{
+	height:350px;
+	width:100%;
+	margin:2% 0 0 0;
+}
+.mmnbox .mmnblocks{
+	height:50px;
+	width:100%;
+	cursor:pointer;
+	display:flex;
+	gap:3%;
+}
+.mmnblocks:hover{
+	background-color:#EBF4FA;
+}
+.mmnbox .mmnblocks .mmnicon{
+	color:gray;
+	font-size:20px;
+	margin:2.5% 0 0 5%;
+}
+.mmnbox .mmnblocks .mmnoption{
+	color:gray;
+	font-size:16px;
+	margin:3.5% 0 0 1%;
+}
+.ad{
+	height:250px;
+	width:330px;
+	background-color:white;
+	border-radius:5px;
+	margin:2% 0.5% 4% 0.5%;
+	padding:1%;
+}
+.ad .head{
+	font-size:14px;
+	color:gray;
+	margin:6% 0 0 5%;
+}
+.ad .imgbox{
+	height:120px;
+	width:200px;
+	margin:0 0 0 16%;
+	display:flex;
+	justify-content:start;
+}
+.ad .imgbox .img1{
+	height:90px;
+	width:90px;
+	border-radius:50px;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+	margin:5% 0 0 2%
+}
+.ad .imgbox .img2{
+	height:90px;
+	width:90px;
+	background-image:url('https://media.licdn.com/dms/image/C560BAQFjHNUub2MPHA/company-logo_100_100/0/1631328654457?e=1711584000&v=beta&t=5GR7bmkEyzxeTgn8yqUcg49bHly_Or3oXZ6G-fEjf2c');
+	background-size:cover;
+	margin:5% 0 0 5%
+}
+.ad .hire{
+	font-size:16px;
+	color:gray;
+	margin:2% 0 0 23%;
+}
+.ad .follow{
+	height:20px;
+	width:80px;
+	padding:1%;
+	border-radius:30px;
+	outline:2px solid blue;
+	margin:3% 0 0 33%;
+	text-align:center;
+	font-size:17px;
+	color:blue;
+}
+.ad .follow:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.footer{
+	height:200px;
+	width:250px;
+	border-radius:5px;
+	margin:2% 0.5% 2% 14%;
+}
+.hh{
+	height:20px;
+	width:220px;
+	margin:4% 0 0 5%;
+	display:flex;
+	justify-content:start;
+	gap:10%;
+	font-size:12px;
+	color:gray;
+}
+.hh div:hover{
+	color:blue;
+	text-decoration:underline;
+}
+.block2{
+	height:1000px;
+	width:900px;
+	margin:5% 0 0 1.5%;
+	border-radius:8px;
+	float:left;
+}
+.block2 .a{
+	height:130px;
+	width:97%;
+	border-radius:8px;
+	background-color:white;
+	padding:1%;
+	margin:0 0.5% 0 0.5%;
+}
+.block2 .a .img{
+	height:70px;
+	width:70px;
+	margin:1.5% 0 0 1%;
+	float:left;
+}
+.block2 .a .content{
+	height:70px;
+	width:780px;
+	margin:1.5% 0 0 1%;
+	float:left;
+}
+.block2 .a .content .a1{
+	height:67px;
+	width:550px;
+	float:left;
+}
+.block2 .a .content .a2{
+	height:67px;
+	width:220px;
+	float:left;
+	margin: 0 0 0 1%;
+}
+.content .a2 .ignore{
+	height:30px;
+	width:80px;
+	margin:6% 0 0 2%;
+	color:gray;
+	float:left;
+	text-align:center;
+	border-radius:5px;
+}
+.ignore:hover{
+	background-color:#DADBDD;
+	cursor:pointer;
+}
+.content .a2 .accept{
+	height:30px;
+	width:80px;
+	border-radius:30px;
+	outline:1px solid blue;
+	margin:6% 0 0 5%;
+	float:left;
+	text-align:center;
+}
+.accept:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.a .content .a1 .name{
+	font-size:14px;
+	color:gray;
+	margin:2% 0 0 0;
+}
+.a .content .a1 .line{
+	font-size:17px;
+	color:gray;
+	margin:1% 0 0 0;
+}
+.a .content .a1 .line .dif{
+	font-size:17px;
+	color:black;
+}
+.dif:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.block2 .b{
+	height:170px;
+	width:97%;
+	border-radius:8px;
+	background-color:white;
+	padding:1%;
+	margin:2% 0.5% 0 0.5%;
+}
+.block2 .b .line1{
+	color:gray;
+	font-size:14px;
+	margin: 0.5% 0 0 1%;
+}
+.block2 .b .img{
+	height:30px;
+	width:70px;
+	margin:1% 0 0 1%;
+	position:relative;
+	float:left;
+}
+.block2 .b .img .imgbox{
+	height:28px;
+	width:28px;
+	border-radius:30px;
+	position:absolute;
+	float:left;
+}
+.block2 .b .img .img1{
+	background-image:url('https://media.licdn.com/media/AAUQAgE2AAgAAQAAAAAAAAhCAAAAJDBmNzFjMzUzLWFlNTAtNDRkZi1hNmZlLTljNjI0MzRlMmY4YQ.png');
+	background-size:cover;
+	left:0;
+}
+.block2 .b .img .img2{
+	background-image:url('https://media.licdn.com/media/AAUQAgE2AAgAAQAAAAAAAAdKAAAAJDQ1YjQ5MTk5LTY2ZGUtNDI2MC05YmQ1LTE3YjE4ZWNlN2ZkYg.png');
+	background-size:cover;
+	left:16px;
+}
+.block2 .b .img .img3{
+	background-image:url('https://media.licdn.com/media/AAUQAgE2AAgAAQAAAAAAAAHzAAAAJGJiZDM1MGJkLTIzOTAtNDhmMS1hZTM5LTEzZDk2NWQ4ZDhjYQ.png');
+	background-size:cover;
+	left:35px;
+}
+.block2 .b .join{
+	font-size:12px;
+	color:gray;
+	margin:1.8% 0 0 0.5%;
+	float:left;
+}
+.tff{
+	height:35px;
+	width:110px;
+	border-radius:30px;
+	background-color:#f9c982;
+	margin:6% 0 0 2%;
+	cursor:pointer;
+}
+.tff:hover{
+	background-color:#e9a53f;
+}
+.tff .text{
+	font-size:15px;
+	padding:8% 0 0 15%;
+}
+.block2 .b .trial{
+	font-size:12px;
+	color:gray;
+	margin:1.5% 0 0 2%;
+}
+.block2 .c{
+	height:700px;
+	width:97%;
+	border-radius:8px;
+	overflow-y:auto;
+	background-color:white;
+	padding:1%;
+	margin:2% 0.5% 0 0.5%;
+}
+.head{
+	height:30px;
+	width:98%;
+	display:flex;
+	gap:63%;
+}
+.head .one{
+	font-size:16px;
+	color:black;
+	margin:1% 0 1% 1%;
+}
+.head .two{
+	font-size:16px;
+	color:gray;
+	margin:1% 0 1% 1.5%;
+	cursor:pointer;
+}
+.block2 .c .box{
+	height:270px;
+	width:200px;
+	border-radius:8px;
+	margin:1.5% 0 0 1.5%;
+	float:left;
+	outline:0.1px solid #DADBDD;
+	position:relative;
+}
+.box .banner{
+	height:80px;
+	width:200px;
+	position:absolute;
+}
+/*banner images*/
+.bannerimg1{
+	background-image:url('https://media.licdn.com/dms/image/D561BAQH1xx2Pkv9S_g/company-background_200/0/1702479971060/googledevelopers_cover?e=1704466800&v=beta&t=XoTBTjl_kVX8DWBhYsGj-jww47FQhDoget_3IeHdHgo');
+	background-size:cover;
+}
+.bannerimg2{
+	background-image:url('https://media.licdn.com/dms/image/D4D1BAQENd89Mng4X2w/company-background_200/0/1694511168640/w3schoolscom_cover?e=1704466800&v=beta&t=R4IrdGE-Rpzaj86Dpe7fq4aywsrQV4EndI7Wbnr7o24');
+	background-size:cover;
+}
+.bannerimg3{
+	background-image:url('https://media.licdn.com/dms/image/D4D1BAQGiYk9chP61ZQ/company-background_200/0/1669963931154/geeksforgeeks_cover?e=1704466800&v=beta&t=w9SH7lCNn1IVl7dfY3oP6P22w0Q3ZMavOygaq-11D18');
+	background-size:cover;
+}
+.bannerimg4{
+	background-image:url('https://media.licdn.com/dms/image/C511BAQFd1atHCyI5TA/company-background_200/0/1583901134055/jseyehunts_cover?e=1704466800&v=beta&t=mXjFPdX7-1QZu9m4ZPkL4gn3GUs1kgsh7pHQ_12EcwQ');
+	background-size:cover;
+}
+.bannerimg5{
+	background-image:url('https://media.licdn.com/dms/image/C511BAQFd1atHCyI5TA/company-background_200/0/1583901134055/jseyehunts_cover?e=1704466800&v=beta&t=mXjFPdX7-1QZu9m4ZPkL4gn3GUs1kgsh7pHQ_12EcwQ');
+	background-size:cover;
+}
+.bannerimg6{
+	background-image:url('https://media.licdn.com/dms/image/C511BAQFd1atHCyI5TA/company-background_200/0/1583901134055/jseyehunts_cover?e=1704466800&v=beta&t=mXjFPdX7-1QZu9m4ZPkL4gn3GUs1kgsh7pHQ_12EcwQ');
+	background-size:cover;
+}
+.bannerimg7{
+	background-image:url('https://media.licdn.com/dms/image/D561BAQH7876WUwEFAw/company-background_200/0/1687797182146/figma_cover?e=1704466800&v=beta&t=OFmWUnB-c2Cyz5qMI3MteygExJcAlpDwmrslXDc_vg0');
+	background-size:cover;
+}
+.bannerimg8{
+	background-image:url('https://media.licdn.com/dms/image/D5607AQFKPh8UnVDZ4g/group-heroimage-shrink_640_160/0/1690555736246?e=1704466800&v=beta&t=4GuDD4sjh9X-d7jDNebNxtWfYa7nB1utva0kuDQVt7g');
+	background-size:cover;
+}
+.bannerimg9{
+	background-image:url('https://img.freepik.com/premium-photo/abstract-white-background-stone-old-texture-background-conceptual-wall-background_890721-49.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais');
+	background-size:cover;
+}
+.bannerimg10{
+	background-image:url('https://media.licdn.com/dms/image/D4D16AQFdmveRs7l-eg/profile-displaybackgroundimage-shrink_200_800/0/1693445518172?e=1709164800&v=beta&t=yCDjtajYTC1wu1PQ4pPYD_2udm_p4ZkB6_Tl38mvYS8');
+	background-size:cover;
+}
+.bannerimg11{
+	background-image:url('https://img.freepik.com/premium-photo/abstract-white-background-stone-old-texture-background-conceptual-wall-background_890721-49.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais');
+	background-size:cover;
+}
+.bannerimg12{
+	background-image:url('https://img.freepik.com/premium-photo/abstract-white-background-stone-old-texture-background-conceptual-wall-background_890721-49.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais');
+	background-size:cover;
+}
+.bannerimg13{
+	background-image:url('https://img.freepik.com/premium-photo/abstract-white-background-stone-old-texture-background-conceptual-wall-background_890721-49.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais');
+	background-size:cover;
+}
+.bannerimg14{
+	background-image:url('https://img.freepik.com/premium-photo/abstract-white-background-stone-old-texture-background-conceptual-wall-background_890721-49.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais');
+	background-size:cover;
+}
+.bannerimg15{
+	background-image:url('https://media.licdn.com/dms/image/C5607AQGaG_oiLSqIlQ/group-heroimage-shrink_640_160/0/1585570090350?e=1704466800&v=beta&t=H9vkg3KehqzrKjWXkzSc1lFK2-_1fLkQ6k8PnzzHMdg');
+	background-size:cover;
+}
+.bannerimg16{
+	background-image:url('https://media.licdn.com/dms/image/D5616AQFhk46YlAdPVg/profile-displaybackgroundimage-shrink_200_800/0/1692344319040?e=1709164800&v=beta&t=ynbUStZs0wQxDmGMMBGH7GPmokdLl92_bRhSTPLh9Xo');
+	background-size:cover;
+}
+/*banner images end*/
+.box .logo{
+	height:90px;
+	width:90px;
+	position:absolute;
+	top:15px;
+	left:30px;
+}
+.box .idname{
+	font-size:19px;
+	color:black;
+	padding:63% 0 0 25%;
+}
+.box .idwork{
+	color:gray;
+	font-size:13px;
+	margin:10% 0 0 25%;
+}
+.box .idfollow{
+	height:30px;
+	width:150px;
+	border-radius:30px;
+	outline:1.5px solid blue;
+	text-align:center;
+	margin:8% 0 0 12%;
+	cursor:pointer;
+}
+.idfollow p{
+	color:blue;
+	padding:3% 0 0 0;
+	font-size:18px;
+}
+.idfollow:hover{
+	background-color:#EBF4FA;
+}
+/*logo images*/
+.logoimg1{
+	background-image:url('https://media.licdn.com/dms/image/D560BAQHKU08CTFye6Q/company-logo_200_200/0/1698850757197?e=1712188800&v=beta&t=LwxYzSoM-cTv5pUbLhAyBnpHybe9I3SV9CfVMUbDZZk');
+	background-size:cover;
+}
+.logoimg2{
+	background-image:url('https://media.licdn.com/dms/image/D4D0BAQHKMvI4CPSFNA/company-logo_200_200/0/1687157257229/w3schoolscom_logo?e=1712188800&v=beta&t=acemWmAXYEULO9pTKqCW7mMBsZ1zxm21i3jc3aLRwQc');
+	background-size:cover;
+}
+.logoimg3{
+	background-image:url('https://media.licdn.com/dms/image/C4D0BAQHa212XwpTpRw/company-logo_200_200/0/1660626687953/geeksforgeeks_logo?e=1712188800&v=beta&t=a1Q0nonvuEv3qqxG10neaN30At-XS627kL8XRUDfvZE');
+	background-size:cover;
+}
+.logoimg4{
+	background-image:url('https://media.licdn.com/dms/image/C510BAQFybdyJxnwFQA/company-logo_200_200/0/1630583824181/jseyehunts_logo?e=1712188800&v=beta&t=RWorC6lVpPdhmRgA8mBa0BFRN6zS89vGo8A6y3Ay9Gk');
+	background-size:cover;
+}
+.logoimg5{
+	background-image:url('https://media.licdn.com/dms/image/D4D0BAQFThEvZuev8jA/company-logo_200_200/0/1693993872405/codingninjas_logo?e=1712188800&v=beta&t=yI1_9HLiwpKmkSiZVXJ-cXtIm4Cn4LCys27OWCcechU');
+	background-size:cover;
+}
+.logoimg6{
+	background-image:url('https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777115831?e=1712188800&v=beta&t=5Ypk-5XZY7hkLThXlvk4udGyZCR7XCfuFkG3IrnX480');
+	background-size:cover;
+}
+.logoimg7{
+	background-image:url('https://media.licdn.com/dms/image/D560BAQGjPX8xmdHxgw/company-logo_200_200/0/1690557728311/figma_logo?e=1712188800&v=beta&t=MAClFF2qlXzGcAzqe-GrgGTOI5dldflDHXg7BOTAOLQ');
+	background-size:cover;
+}
+.logoimg8{
+	background-image:url('https://media.licdn.com/dms/image/D5607AQFyzJmv0N3NIA/group-logo_image-shrink_200x200/0/1690555735487?e=1704466800&v=beta&t=8geTusuYWnBthhaFKK51SzjACsOxdQysIHf3npmpCRw');
+	background-size:cover;
+}
+.logoimg9{
+	background-image:url('https://media.licdn.com/dms/image/D4D12AQHdzMhw-amgwg/series-logo_image-shrink_100_100/0/1690863108632?e=1709164800&v=beta&t=Pkpo29aVg2bu0AsW8Z0PPtAsbcCeKSKD5GcleUzeXrc');
+	background-size:cover;
+}
+.logoimg10{
+	background-image:url('https://media.licdn.com/dms/image/D4D12AQGoRxoX8hb41Q/series-logo_image-shrink_100_100/0/1680149266697?e=1709164800&v=beta&t=f4BzuLhIDPUoQA5MDv7HYOmpp4spdVQ8CyF3cVLmTXo');
+	background-size:cover;
+}
+.logoimg11{
+	background-image:url('https://media.licdn.com/dms/image/D4D12AQGJ6x6GmQ6IdA/series-logo_image-shrink_100_100/0/1672911350065?e=1709164800&v=beta&t=yEa-4PX6D4zTDYN1wVTSi44DRMt7UCK69vcr65YANGM');
+	background-size:cover;
+}
+.logoimg12{
+	background-image:url('https://media.licdn.com/dms/image/D4D12AQGy4dYuVoFEdw/series-logo_image-shrink_100_100/0/1686914136407?e=1709164800&v=beta&t=GMV2_J_IUkY8oyKQLsK2j7W1U7xPrQUebJ202saGvm8');
+	background-size:cover;
+}
+.logoimg13{
+	background-image:url('https://media.licdn.com/dms/image/D5612AQH8EXu-UbRRYQ/series-logo_image-shrink_100_100/0/1697804993742?e=1709164800&v=beta&t=PPoGk_8Ix6VWGNOLr9aoLzMm0DPxRb9CCOPO8AaTWNc');
+	background-size:cover;
+}
+.logoimg14{
+	background-image:url('https://media.licdn.com/dms/image/D4D12AQExgk80PejYkQ/series-logo_image-shrink_100_100/0/1701244322068?e=1709164800&v=beta&t=05PHtjLtpG2vjnA0d8fUS2FyHfiIB6kgiHp5F2_VlL0');
+	background-size:cover;
+}
+.logoimg15{
+	background-image:url('https://media.licdn.com/dms/image/C5607AQHkNNQ7VJct-A/group-logo_image-shrink_200x200/0/1630997527396?e=1704466800&v=beta&t=e71okNWMCzJD09OVzW-H8-QHMHA9AFGaeEBanRwz_6k');
+	background-size:cover;
+}
+.logoimg16{
+	background-image:url('https://media.licdn.com/dms/image/D5612AQGUyM5CYOoNAw/series-logo_image-shrink_100_100/0/1688465038667?e=1709164800&v=beta&t=7NEIsqeR4ZoDPqKd3XOX0d-CY_kWwo5xbA8PLF5N_3Y');
+	background-size:cover;
+}
+/* logo images end*/

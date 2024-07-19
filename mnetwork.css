@@ -1,0 +1,175 @@
+*{
+	padding:0;
+	margin:0;
+}
+@media screen and (max-width:800px){
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+/* for bottom navbar*/
+	.mnavbar{
+		height:55px;
+		width:100%;
+		position:fixed;
+		bottom:0;
+		outline:0.1px solid gray;
+		background-color:white;
+		display:block;
+		left:0;
+	}
+	.mnavicons{
+		display:flex;
+		justify-content:space-around;
+	}
+	.miconbox{
+		height:40px;
+		width:60px;
+		margin-top:10px;
+	}
+	.micon{
+		font-size:24px;
+		color:gray;
+		padding:0 0 0 15px;
+	}
+	.micontxt{
+		font-size:12px;
+		color:gray;
+		padding:0 0 0 20%;
+	}
+/*bottom navbar end*/
+/*top search bar*/
+	.msearch{
+		height:50px;
+		width:100%;
+		position:fixed;
+		top:0;
+		background-color:white;
+		display:flex;
+		justify-content:start;
+		left:0;
+	}
+	.muserdp{
+		height:33px;
+		width:33px;
+		background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+		background-size:cover;
+		margin:2% 0 0 4%;
+	}
+	.msearchbar{
+		height:35px;
+		width:250px;
+		border-radius:6px;
+		background-color:#EBF4FA;
+		margin:2% 0 0 2%;
+	}
+	.msearchbar .searchtxt{
+		color:gray;
+		font-size:18px;
+		padding:2.5% 0  0 4%;
+	}
+	.msgicon{
+		color:gray;
+		font-size:26px;
+		margin:2.5% 1% 0 4%;
+	}
+/*top search bar end*/
+
+	/*----------------------------*/
+	
+/*main body start*/
+	/*--pro tips vala block--*/
+.protips{
+	height:110px;
+	width:100%;
+	background-color:white;
+	margin:14% 0 0 0;
+	display:flex;
+	justify-content:start;
+}
+.bulb{
+	height:80px;
+	width:50px;
+	margin:0 0 0 1.5%;
+	padding:2px;
+}
+.tiptxtbox{
+	height:90px;
+	width:300px;
+	margin:1% 0 0 1px;
+}
+.tiptxt{
+	color:black;
+	font-size:15px;
+	margin:22px 0 0 1%;
+}
+.opts{
+	height:30px;
+	width:230px;
+	margin:2% 0 0 2%;
+	display:flex;
+	justify-content:start;
+}
+.opt1{
+	height:30px;
+	width:120px;
+	border-radius:30px;
+	outline:1.5px solid blue;
+	text-align:center;
+}
+.opt1 div{
+	color:blue;
+	padding:5px 0 0 0;
+}
+.opt2{
+	height:30px;
+	width:100px;
+	border-radius:30px;
+	outline:1.5px solid gray;
+	margin:0 0 0 15px;
+	text-align:center;
+}
+.opt2 div{
+	color:gray;
+	margin:4px 0 0 0;
+}
+	/*--pro tips vala block khatam--*/
+
+	/*----------------------------*/
+
+/*--build contact vala block--*/
+.buildconbox{
+	height:80px;
+	width:100%;
+	background-color:white;
+	margin:2% 0 0 0;
+}
+.bchead{
+	color:black;
+	font-size:15px;
+	padding:1% 0 0 3%;
+}
+.bcbar{
+	height:15px;
+	width:330px;
+	outline:1px solid black;
+	margin:3% 0 0 4%;
+}
+.bcinfobox{
+	height:20px;
+	width:350px;
+	margin:2% 0 0 1%;
+	display:flex;
+	justify-content:start;
+}
+.conn{
+	color:blue;
+	font-size:15px;
+	margin:0.5% 0 0 2%;
+}
+.rem{
+	color:gray;
+	font-size:15px;
+	margin:0.5% 0 0 42%; 
+}
+/*--build contact vala block khatam--*/

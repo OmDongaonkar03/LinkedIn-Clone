@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	height:52px;
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.mnavbar{
+	display:none;
+}
+.logo{
+	margin:0.4% 0 0 12%;
+	cursor:pointer;
+}
+.navcontent{
+	display:flex;
+	justify-content:start;
+}
+.searchbar{
+	height:35px;
+	width:300px;
+	border-radius:5px;
+	background-color:#EBF4FA;
+	margin:0.5% 0 0 1%;
+	cursor:text;
+}
+.searchbar p{
+	font-size:15px;
+	color:black;
+	font-family:monospace;
+	padding: 2.5% 0 0 4%;
+}
+.search{
+	display:none;
+}
+.icon{
+	margin:0.2% 2% 0 10%;
+	height:40px;
+	width:40px;
+	color:gray;
+	cursor:pointer;
+}
+.icon:hover{
+	color:black;
+}
+.icons{
+	margin:0.2% 2% 0 0.2%;
+	height:40px;
+	width:50px;
+	color:gray;
+	cursor:pointer;
+}
+.icons:hover{
+	color:black;
+}
+.dd1{
+}
+.dd1b{
+	height:445px;
+	width:275px;
+	border-radius:6px;
+	background-color:white;
+	display:none;
+	top:2%;
+	box-shadow:1px 1px 1px 1px black;
+}
+.dd1:hover .dd1b{
+	display:block;
+}
+.meinfo{
+	height:90px;
+	width:100%;
+	display:flex;
+}
+.medp{
+	height:70px;
+	width:70px;
+	border-radius:70px;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+	margin:6% 0 0 3%;
+}
+.meinfobox{
+	height:110px;
+	width:200px;
+	margin:0 0 0 1%;
+}
+.mename{
+	color:black;
+	font-size:16px;
+	padding:8% 0 0 4%;
+}
+.mecollage{
+	color:gray;
+	font-size:12px;
+	padding:1% 0 0 4%;
+}
+.vprof{
+	height:25px;
+	width:90%;
+	border-radius:25px;
+	outline:1.5px solid blue;
+	margin:1.5% 0 4% 5%;
+	text-align:center;
+	cursor:pointer;
+}
+.vprof:hover{
+	background-color:#EBF4FA;
+}
+.vproftxt{
+	color:blue;
+	font-size:16px;
+	padding:1.5% 0 0 0;
+}
+.meoph{
+	color:black;
+	font-size:16px;
+	padding:1.5% 0 0 4.5%;
+}
+.tpre{
+	color:gray;
+	font-size:15px;
+	padding:2% 0 0 9%;
+}
+.tpre:hover{
+	text-decoration:underline;
+	color:blue;
+}
+.meopts{
+	color:#CECECE;
+	font-size:15px;
+	padding:6% 0 0 5%;
+}
+.meopts:hover{
+	text-decoration:underline;
+}
+.so{
+	color:gray;
+	font-size:17px;
+	padding:1% 0 0 35%;
+}
+.so:hover{
+	color:red;
+	text-decoration:underline;
+}
+.dd2{
+}
+.dd2b{
+	height:680px;
+	width:550px;
+	background-color:white;
+	border-radius:5px;
+	box-shadow:1px 1px 1px 1px black;
+	display:none;
+	right:0;
+	top:2%;
+}
+.dd2b .fbh{
+	color:black;
+	font-size:22px;
+	padding:4% 0 0 4%;
+}
+.linkprod{
+	height:200px;
+	width:300px;
+	border-radius:5px;
+	outline:0.5px solid gray;
+	margin:6% 0 0 4.5%;
+}
+.vmorep{
+	color:black;
+	font-size:16px;
+	padding:5% 0 4% 6%;
+}
+.pblock{
+	height:60px;
+	width:100%;
+	margin:3% 0 0 0;
+	display:flex;
+	justify-content:space-between;
+}
+.pbox{
+	height:40px;
+	width:40px;
+	border-radius:5px;
+	outline:0.1px solid gray;
+	text-align:center;
+}
+.picon{
+	color:#728FCE;
+	padding:2.5% 0 0 0;
+	font-size:30px;
+}
+.pbox:hover{
+	box-shadow:1px 1px 1px 1px black;
+}
+.expmore{
+	height:350px;
+	width:300px;
+	border-radius:5px;
+	outline:0.5px solid gray;
+	margin:0.1% 0 0 4.5%;
+}
+.expoptbox{
+	height:40px;
+	width:100%;
+	margin-top:2.5%
+}
+.expopt{
+	color:black;
+	font-size:15px;
+	padding:2% 0 0 4%;
+}
+.expopt:hover{
+	text-decoration:underline;
+}
+.expoptinfo{
+	color:gray;
+	font-size:12px;
+	padding:0.5% 0 0 4%;
+}
+.expoptinfo:hover{
+	text-decoration:underline;
+}
+.expotpbox:hover{
+	text-decoration:uderline;
+}
+.dd2:hover .dd2b{
+	display:block;
+}
+.in{
+	font-size:23px;
+	padding:0.2% 1% 0 38%;
+}
+.txt{
+	font-size:12px;
+	color:gray;
+	padding:15% 1% 0 35%;
+}
+.user{
+	height:25px;
+	width:25px;
+	border-radius:30px;
+	margin:0.2% 0 0 20%;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+}
+.username{
+	font-size:15px;
+	color:gray;
+	padding:6% 0.5% 0 19%;
+}
+.menu{
+	margin:0.2% 0 0 1%;
+	height:40px;
+	width:90px;
+	cursor:pointer;
+}
+.try{
+	margin:0.7% 0 0 1%;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	color:brown;
+	font-size:12px;
+	text-decoration:underline;
+}
+.block1{
+	height:520px;
+	width:250px;
+	border-radius:5px;
+	margin:7% 0 0 11%;
+	float:left;
+}
+.block2{
+	height:3700px;
+	width:600px;
+	border-radius:5px;
+	margin:7% 0 0 2%;
+	float:left;
+}
+.block2 .box{
+	height:400px;
+	width:590px;
+	background-color:white;
+	border-radius:8px;
+	margin:1% 0.5% 2% 0.5%;
+}
+.box .welcome{
+	font-size:22px;
+	color:black;
+	padding:2% 0 0 3%;
+}
+.box .dandi{
+	margin:1% 0 0 3%;
+}
+.box .inblock{
+	height:300px;
+	width:550px;
+	border-radius:8px;
+	outline:0.1px solid gray;
+	margin:2% 0 0 3%;
+}
+.box .inblock .img{
+	height:170px;
+	width:100%;
+	background-color:red;
+}
+.box .inblock .txt{
+	font-size:15px;
+	color:gray;
+	padding:3% 0 0 2%;
+}
+.box .inblock .start{
+	height:35px;
+	width:150px;
+	border-radius:30px;
+	background-color:#0a66c2;
+	margin:3% 0 0 2%;
+	cursor:pointer;
+}
+.inblock .start .txt{
+	font-size:13px;
+	color:white;
+	padding:7% 0 0 8%;
+}
+.block2 .bigbox{
+	height:710px;
+	width:582px;
+	background-color:white;
+	border-radius:8px;
+	padding:1%;
+	margin:2% 0.5% 2% 0.5%;
+}
+.bigbox .dp{
+	height:40px;
+	width:40px;
+	border-radius:30px;
+	margin:2% 0 0 2%;
+	float:left;
+}
+.bigbox .dp1{
+	background-image:url('https://media.licdn.com/dms/image/D560BAQGQzoOe0biupA/company-logo_100_100/0/1689016081009/microsoft_developers_logo?e=1711584000&v=beta&t=ZE1YCyYhVgrfsEFbTl1bGIRIt3gvtnKzHTqm1DnW_E0');
+	background-size:cover;
+}
+.bigbox .dp2{
+	background-image:url('https://media.licdn.com/dms/image/D5603AQHl84DiWdU4ug/profile-displayphoto-shrink_100_100/0/1681037720026?e=1709164800&v=beta&t=d-geA9vr7nhb_H7NoWUBaND2HRVe1DmVMxCjUyFKZXs');
+	background-size:cover;
+}
+.bigbox .dp3{
+	background-image:url('https://media.licdn.com/dms/image/D4D03AQGIf6QfyE1AcQ/profile-displayphoto-shrink_100_100/0/1671690333384?e=1709164800&v=beta&t=6lBGdz09LOKGa8OI64uTkm1Y6Qj4kraKWxV9tblJf8c');
+	background-size:cover;
+}
+.bigbox .dp4{
+	background-image:url('https://media.licdn.com/dms/image/C4E03AQFQn_5rLG1e7w/profile-displayphoto-shrink_100_100/0/1583155222900?e=1709164800&v=beta&t=4jERnIQkcUx-rVf79d7-F9sYzIP6JitcTzmpJ3g7ESA');
+	background-size:cover;
+}
+.bigbox .company{
+	height:40px;
+	width:300px;
+	margin:2% 0 0 2%;
+	float:left;
+}
+.company .naam{
+	font-size:18px;
+	color:black;
+	padding:2.5% 0 0 0;
+}
+.company .spec{
+	font-size:10px;
+	color:gray;
+	padding:0.5% 0 0 0;
+}
+.bigbox .upload{
+	height:550px;
+	width:99%;
+	border-radius:5px;
+	margin:12% 0.5% 0 0.5%;
+}
+/* upload images */
+.upload1{
+	background-image:url('https://media.licdn.com/dms/image/sync/D4E18AQFQGCyZsE0Tyg/companyUpdate-article-image-shrink_627_1200/0/1668695266118/AZRDIR_LI-PAYG-Gen-Black-C1_ZAF_1200x1200_LIA_AZR-Direct_EN_Trial_Standard_SBAN_SINU_Illustration_Questionpng?e=1706745600&v=beta&t=pQeV0QYRU4lce92naqBWvZKI5s7FnTuDGO10FenW4LQ');
+	background-size:cover;
+}
+.upload2{
+	background-image:url('https://media.licdn.com/dms/image/D5622AQGM4I5Kzn1RPQ/feedshare-shrink_800/0/1703233187489?e=1706745600&v=beta&t=grfp-7_6JmY3lgKIUZEQ_BWlEjcL5n_CyZIuFzjcyUE');
+	background-size:cover;
+}
+.upload3{
+	background-image:url('https://media.licdn.com/dms/image/D4D22AQGET3xodvKjgw/feedshare-shrink_800/0/1702877816329?e=1706745600&v=beta&t=jR4N22SpamIqbCu3JB577hT8e6PC0BqAn2PUTo08ivU');
+	background-size:cover;
+}
+.upload4{
+	background-image:url('https://media.licdn.com/dms/image/D4E22AQF_7Y255JCn7g/feedshare-shrink_800/0/1703164740821?e=1706745600&v=beta&t=d6aMkIuIvZC3wp_GUIld-NCXGATfLTO7GClhoR370jg');
+	background-size:cover;
+}
+/* upload images end*/
+.bigbox .data{
+	height:110px;
+	width:97%;
+	border-radius:5px;
+	background-color:;
+	padding:1%;
+	margin:1% 0.5% 0 0.5%;
+}
+.bigbox .data .reaction .react{
+	margin:0 0 0 2%;
+	float:left;
+}
+.bigbox .data .reaction .number{
+	margin:1% 0 0 0.1%;
+	float:left;
+	font-size:10px;
+	color:gray;
+}
+.bigbox .data .cr{
+	font-size:10px;
+	color:gray;
+	margin:0.2% 0 0 55%;
+	float:left;
+}
+.bigbox .data .reviewop{
+	height:43px;
+	width:99%;
+	margin:2% 0.5% 0 0.5%;
+	display:flex;
+	justify-content:start;
+	gap:2%;
+}
+.bigbox .data .reviewop .rbox{
+	height:28px;
+	width:130px;
+	text-align:center;
+	padding:1%;
+	font-size:18px;
+	color:gray;
+}
+.bigbox .data .reviewop .rbox:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.block2 .smallbox{
+	height:100px;
+	width:580px;
+	background-color:white;
+	border-radius:8px;
+	margin:1% 0.5% 1% 0.5%;
+	padding:1%;
+}
+.smallbox .dp{
+	height:40px;
+	width:40px;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+	margin:1% 0 0 2%;
+	float:left;
+}
+.smallbox .post{
+	height:35px;
+	width:500px;
+	border-radius:30px;
+	outline:0.5px solid gray;
+	margin:1.2% 0 0 11%;
+}
+.post .txt{
+	font-size:16px;
+	color:gray;
+	padding:1.8% 0 0 3%;
+}
+.post:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.smallbox .menu{
+	height:45px;
+	width:100%;
+	margin:2% 0 0 0;
+	display:flex;
+	justify-content:start;
+	gap:7%;
+}
+.menu .blocks{
+	height:40px;
+	width:130px;
+	margin:0.5%;
+}
+.menu .blocks:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.blocks .txt{
+	font-size:20px;
+	color:#0a66c2;
+	padding:2% 0 0 15%;
+}
+.blocks .txt2{
+	font-size:20px;
+	color:gold;
+	padding:2% 0 0 15%;
+}
+.blocks .txt3{
+	font-size:20px;
+	color:orange;
+	padding:2% 0 0 15%;
+}
+.block3{
+	height:800px;
+	width:350px;
+	border-radius:5px;
+	margin:7% 0 0 2%;
+	float:left;
+}
+.block3 .dp{
+	height:35px;
+	width:35px;
+	border-radius:30px;
+	margin:1% 0 0 2%;
+	background-color:red;
+	float:left;
+}
+.block3 .name{
+	height:35px;
+	width:500px;
+	margin:1% 0 0 2%;
+	background-color:blue;
+}
+.block3 .news{
+	height:350px;
+	width:330px;
+	background-color:white;
+	border-radius:5px;
+	margin:2% 0.5% 4% 0.5%;
+	padding:1%;
+}
+.block3 .news .head{
+	font-size:18px;
+	color:black;
+	margin:2% 0 5% 2%;
+}
+.block3 .news .newsblock{
+	height:50px;
+	width:100%;
+
+}
+.newsblock:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.block3 .news .newsblock .headline{
+	font-size:15px;
+	color:black;
+	padding-top:1.5%;
+}
+.block3 .news .newsblock .otherinfo{
+	font-size:12px;
+	color:gray;
+	padding:1% 0 0 11%;
+}
+.block3 .news .showmore{
+	height:25px;
+	width:105px;
+	margin: 2% 0 0 5%;
+}
+.showmore:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.block3 .ad{
+	height:250px;
+	width:330px;
+	background-color:white;
+	border-radius:5px;
+	margin:2% 0.5% 4% 0.5%;
+	padding:1%;
+}
+.block3 .ad .head{
+	font-size:10px;
+	color:gray;
+	margin:10% 0 0 18%;
+}
+.block3 .ad .imgbox{
+	height:120px;
+	width:200px;
+	margin:4% 0 0 16%;
+	display:flex;
+	justify-content:start;
+}
+.block3 .ad .imgbox .img1{
+	height:90px;
+	width:90px;
+	border-radius:50px;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+	margin:5% 0 0 2%
+}
+.block3 .ad .imgbox .img2{
+	height:90px;
+	width:90px;
+	background-image:url('https://media.licdn.com/dms/image/C560BAQFjHNUub2MPHA/company-logo_100_100/0/1631328654457?e=1711584000&v=beta&t=5GR7bmkEyzxeTgn8yqUcg49bHly_Or3oXZ6G-fEjf2c');
+	background-size:cover;
+	margin:5% 0 0 5%
+}
+.block3 .ad .hire{
+	font-size:16px;
+	color:gray;
+	margin:2% 0 0 23%;
+}
+.block3 .ad .follow{
+	height:20px;
+	width:80px;
+	padding:1%;
+	border-radius:30px;
+	outline:2px solid blue;
+	margin:3% 0 0 33%;
+	text-align:center;
+	font-size:17px;
+	color:blue;
+}
+.block3 .ad .follow:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.block3 .footer{
+	height:200px;
+	width:250px;
+	border-radius:5px;
+	margin:2% 0.5% 2% 14%;
+}
+.hh{
+	height:20px;
+	width:220px;
+	margin:4% 0 0 5%;
+	display:flex;
+	justify-content:start;
+	gap:10%;
+	font-size:12px;
+	color:gray;
+}
+.hh div:hover{
+	color:blue;
+	text-decoration:underline;
+}
+.info{
+	height:310px;
+	width:220px;
+	margin:1% 0 0 6%;
+	background-color:white;
+	border-radius:5px;
+}
+.extra{
+	height:160px;
+	width:220px;
+	margin:5% 0 0 6%;
+	background-color:white;
+	border-radius:5px;
+}
+.extra div{
+	height:20px;
+	width:100%;
+}
+.extra div:hover{
+	text-decoration:underline;
+}
+.extra div p{
+	font-size:15px;
+	color:#0a66c2;
+	margin:0 0 0 4%;
+}
+.discover{
+	color:gray;
+	font-size:15px;
+	margin:2% 0 0 25%;
+	cursor:pointer; 
+}
+.show{
+	display:none;
+}
+.a{
+	display:none;
+}
+.background{
+	height:70px;
+	width:100%;
+	background-image:url('https://img.freepik.com/free-photo/gray-concrete-wall_53876-89531.jpg');
+	position:relative;
+}
+.userimg{
+		height:80px;
+		width:80px;
+		border-radius:50px;
+		background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+		background-size:cover;
+		background-repeat:none;
+		margin:12% 0 0 30%;
+		position:absolute;
+}
+.userimg:hover{
+	cursor:pointer;
+}
+.name{
+	display:none;
+}
+.namel{
+	font-size:18px;
+	color:black;
+	font-family:monospace;
+	margin:16% 0 0 23%;
+}
+.namel:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.collage{
+	display:none;
+}
+.collagel{
+	font-size:10px;
+	color:gray;
+	font-family:monospace;
+	margin:1% 0 0 8%;
+}
+.collagel:hover{
+	cursor:text;
+}
+.conn{
+	height:35px;
+	width:100%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+.conn:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.conn .txt1{
+	font-size:12px;
+	color:gray;
+	font-family:monospace;
+	margin:0 0 0 4%;
+}
+.conn .txt2{
+	font-size:12px;
+	color:black;
+	font-family:monospace;
+	padding:0 0 0 4%;
+}
+.ai{
+	height:40px;
+	width:96%;
+	margin:1% 0 0 2%;
+}
+.ai:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.ai p{
+	font-size:11px;
+	color:gray;
+	font-family:monospace;
+	margin:3% 0 0 4%;
+}
+.ai div{
+	font-size:11px;
+	color:black;
+	font-family:monospace;
+	margin:2% 0 0 4%;
+}
+.myitems{
+	height:100px;
+	width:100%;
+	border-radius:5px;
+}
+.myitems p{
+	color:gray;
+	font-size:17px;
+	padding:2% 0 0 4%;
+}
+.myitems p:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.welcomeL{
+	display:none;
+}
+.yourpostL{
+	display:none;
+}
+.postL{
+	display:none;
+}
+.morepost{
+	height:25px;
+	width:620px;
+	border-radius:30px;
+	margin:1% 0 0 28%;
+	outline:1px solid black;
+}
+.morepost:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.morepostL{
+	display:none;
+}
+.footerL{
+	display:none:
+}
+.new{
+	height:25px;
+	width:150px;
+	text-align:center;
+	border-radius:30px;
+	margin:5% 0 0 35%;
+	outline:2px solid blue;
+	display:block;
+}
+.new p{
+	font-size:20px;
+	color:blue;
+	}
+}
+.new:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.newsL{
+	display:none;	
+}
+.reactnavbar{
+	display:none;
+}
+.mboxa{
+	display:none;
+}

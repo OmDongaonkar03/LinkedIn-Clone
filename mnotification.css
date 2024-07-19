@@ -1,0 +1,152 @@
+*{
+	padding:0;
+	margin:0;
+}
+@media screen and (max-width:800px){
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+/* for bottom navbar*/
+	.mnavbar{
+		height:55px;
+		width:100%;
+		position:fixed;
+		bottom:0;
+		outline:0.1px solid gray;
+		background-color:white;
+		display:block;
+		left:0;
+	}
+	.mnavicons{
+		display:flex;
+		justify-content:space-around;
+	}
+	.miconbox{
+		height:40px;
+		width:60px;
+		margin-top:10px;
+	}
+	.micon{
+		font-size:24px;
+		color:gray;
+		padding:0 0 0 15px;
+	}
+	.micontxt{
+		font-size:12px;
+		color:gray;
+		padding:0 0 0 20%;
+	}
+/*bottom navbar end*/
+/*top search bar*/
+	.msearch{
+		height:50px;
+		width:100%;
+		position:fixed;
+		top:0;
+		background-color:white;
+		display:flex;
+		justify-content:start;
+		left:0;
+	}
+	.muserdp{
+		height:33px;
+		width:33px;
+		background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+		background-size:cover;
+		margin:2% 0 0 4%;
+	}
+	.msearchbar{
+		height:35px;
+		width:250px;
+		border-radius:6px;
+		background-color:#EBF4FA;
+		margin:2% 0 0 2%;
+	}
+	.msearchbar .searchtxt{
+		color:gray;
+		font-size:18px;
+		padding:2.5% 0  0 4%;
+	}
+	.msgicon{
+		color:gray;
+		font-size:26px;
+		margin:2.5% 1% 0 4%;
+	}
+/*top search bar end*/
+
+	/*----------------------------*/
+	
+/*main body start*/
+	.topopts{
+		height:50px;
+		width:100%;
+		background-color:white;
+		margin:15% 0 0 0;
+		display:flex;
+		justify-content:start;
+	}
+	.topopts .opt1{
+		height:25px;
+		width:80px;
+		border-radius:30px;
+		outline:1px solid green;
+		margin:2.5% 0 0 2%;
+		text-align:center;
+		padding:7px 0 0 0;
+		color:green;
+	}
+	.topopts .opt2{
+		height:25px;
+		width:100px;
+		border-radius:30px;
+		outline:1px solid gray;
+		margin:2.5% 0 0 2%;
+		text-align:center;
+		padding:7px 0 0 0;
+		color:gray;
+	}
+	.notibox{
+		height:100px;
+		width:100%;
+		background-color:white;
+		margin:1% 0 0 0;
+		display:flex;
+		justify-content:space-around;
+	}
+	.notibox .noimg{
+		height:50px;
+		width:50px;
+		border-radius:50px;
+		background-size:cover;
+		margin:4% 0 0 0;
+	}
+	.noimg1{
+		background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Giorgia_Meloni_Official_2023_%28cropped%29.jpg/800px-Giorgia_Meloni_Official_2023_%28cropped%29.jpg');
+	}
+	.noimg2{
+		background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/220px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg');
+	}
+	.noimg3{
+		background-image:url('https://media.licdn.com/dms/image/D4D03AQF7Ho_ryeoQNA/profile-displayphoto-shrink_800_800/0/1677988939103?e=2147483647&v=beta&t=-4X9KCdcqQ2asnFgYFjk8LaiwYpvtOEaVaB79CwNrN8');
+	}
+	.noimg4{
+		background-image:url('https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg');
+	}
+	.noimg5{
+		background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg');
+	}
+	.notibox .noinfo{
+		height:80px;
+		width:250px;
+		background-color:white;
+		margin:3% 0 0 0;
+		color:gray;
+		font-size:16px;
+	}
+	.notibox .nomore{
+		color:gray;
+		font-size:30px;
+		margin:6% 0 0 0;
+	}
+/*main body start end*/

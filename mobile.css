@@ -1,0 +1,249 @@
+/*below for mobile version*/
+@media screen and (max-width:800px){
+	body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+	}
+	.navbar{
+		display:none;
+	}
+	.searchbar{
+		display:none;
+	}
+	.txt{
+		display:none;	
+	}
+	.username{
+		display:none;
+	}
+	.menu{
+		display:none;
+	}
+	.try{
+		display:none;
+	}
+	.block1{
+		display:none;
+	}
+	.block2{
+		display:none;
+	}
+	.block2 .smallbox{
+		display:none;
+	}
+	.block2 .bigbox{
+		display:none;
+	}
+	.block2 .box{
+		display:none;
+	}
+	.block3{
+		display:none;
+	}
+	.morepost{
+		display:none;
+	}
+	.new{
+		display:none;
+	}
+	.footer{
+		display:none;
+	}
+	.news{
+		display:none;
+	}
+	.ad{
+		display:none;
+	}
+/* for bottom navbar*/
+	.mnavbar{
+		height:55px;
+		width:100%;
+		position:fixed;
+		bottom:0;
+		outline:0.1px solid gray;
+		background-color:white;
+		display:block;
+	}
+	.mnavicons{
+		display:flex;
+		justify-content:space-around;
+	}
+	.miconbox{
+		height:40px;
+		width:60px;
+		margin-top:1.8%;
+	}
+	.micon{
+		font-size:24px;
+		color:gray;
+		padding:0 0 0 28%;
+	}
+	.micontxt{
+		font-size:12px;
+		color:gray;
+		padding:0 0 0 20%;
+	}
+/*bottom navbar end*/
+/*top search bar*/
+	.msearch{
+		height:50px;
+		width:100%;
+		position:fixed;
+		top:0;
+		background-color:white;
+		display:flex;
+		justify-content:start;
+	}
+	.muserdp{
+		height:33px;
+		width:33px;
+		background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+		background-size:cover;
+		margin:2% 0 0 4%;
+	}
+	.msearchbar{
+		height:33px;
+		width:250px;
+		border-radius:6px;
+		background-color:#EBF4FA;
+		margin:2% 0 0 2%;
+	}
+	.msearchbar .searchtxt{
+		color:gray;
+		font-size:18px;
+		padding:2.5% 0  0 4%;
+	}
+	.msgicon{
+		color:gray;
+		font-size:26px;
+		margin:2.5% 1% 0 4%;
+	}
+/*top search bar end*/
+	.mboxa{
+		height:550px;
+		width:100%;
+		display:block;
+		background-color:white;
+		margin:3% 0 0 0;
+	}
+	.mboxa .feedinfo{
+		height:105px;
+		width:98%;
+		margin:2% 0 0 0;
+		padding:1%;
+		display:flex;
+	}
+	.updp{
+		height:55px;
+		width:60px;
+		background-size:cover;
+		margin:13% 0 0 1%;
+	}
+	.updp2{
+		height:55px;
+		width:60px;
+		background-size:cover;
+		margin:1% 0 0 1%;
+	}
+	.updp3{
+		height:55px;
+		width:60px;
+		background-size:cover;
+		margin:1% 0 0 1%;
+	}
+	.dp1{
+		background-image:url('https://media.licdn.com/dms/image/C4E0BAQEHzGrkE_U23Q/company-logo_100_100/0/1630636899456/linkedin_news_india_logo?e=1712793600&v=beta&t=zvvxztk0fb6vZcT0A5DB4pdLt3zJrqEPrCxn0kqglxE');	
+	}
+	.dp2{
+		background-image:url('https://media.licdn.com/dms/image/D4D03AQFz-QGZ1If1YQ/profile-displayphoto-shrink_100_100/0/1694937755558?e=1710979200&v=beta&t=uofSJQ92BuYnfUsMJkugz50xs28CXk1uHDD_mbfmIeY');
+		border-radius:50px;
+	}
+	.dp3{
+		background-image:url('https://media.licdn.com/dms/image/C5603AQH1vNuZrYNsoQ/profile-displayphoto-shrink_100_100/0/1609143099430?e=1710979200&v=beta&t=o9ROSGs1yXw6yoWwgbOvQPBZ2ZWtWdBwj1RM5_FmsCs');
+		border-radius:50px;	
+	}
+	.upinfo{
+		height:60px;
+		width:300px;
+		margin:13% 0 0 1%;
+	}
+	.upinfo2{
+		height:60px;
+		width:300px;
+		margin:0 0 0 1%;
+	}
+	.upinfo3{
+		height:60px;
+		width:300px;
+		margin:1% 0 0 1%;
+	}
+	.upname{
+		color:black;
+		font-size:18px;
+		padding:0.5% 0 0 1%;
+	}
+	.upfollow{
+		color:gray;
+		font-size:12px;
+		padding:0.5% 0 0 1%;
+	}
+	.mboxa .feedcontent{
+		height:80px;
+		width:100%;
+		margin:2% 0 0 0;
+	}
+	.contxt{
+		color:black;
+		font-size:15px;
+		padding:0 0 0 2%;
+	}
+	.mboxa .feedimg{
+		height:260px;
+		width:100%;
+		background-size:cover;
+		margin:1% 0 0 0;
+	}
+	.fimg1{
+		background-image:url('https://media.licdn.com/dms/image/D4D22AQHTFd2Dc_60CA/feedshare-shrink_800/0/1704956958908?e=1707955200&v=beta&t=RNcE1UK4iiCECHhjEh1RB7cxhzYkF4cK1pVHBmbBH6I');
+	}
+	.fimg2{
+		background-image:url('https://imageio.forbes.com/specials-images/imageserve/5da63b70db40260006202a39/faangs/960x0.png?format=png&width=960');
+	}
+	.fimg3{
+		background-image:url('https://media.licdn.com/dms/image/sync/D4E27AQEasZHlJOECQQ/articleshare-shrink_800/0/1705382115057?e=1706018400&v=beta&t=9reinRipMNuj-DIxViS1b0kJLBUiPE_b8uS7HKuZNRo');
+	}
+	.mboxa .feedreact{
+		height:32px;
+		width:100%;
+		display:flex;
+	}
+	.feedreact .reemj{
+		height:20px;
+		width:60px;
+		margin:2% 0 0 3%;
+	}
+	.feedreact .number{
+		color:gray;
+		font-size:13px;
+	}
+	.mboxa .feedlcs{
+		height:50px;
+		width:100%;
+		display:flex;
+		background-color:white;
+		flex-direction:row;
+		justify-content:space-around;
+	}
+	.lcsbox{
+		height:45px;
+		width:115px;
+		margin:0 0 0 0;
+		text-align:center;
+		color:gray;
+		font-size:18px;
+	}
+	.lcsbox:hover{
+		background-color:#EBF4FA;
+	}
+}

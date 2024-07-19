@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	height:52px;
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.logo{
+	margin:0.4% 0 0 12%;
+	cursor:pointer;
+}
+.navcontent{
+	display:flex;
+	justify-content:start;
+}
+.searchbar{
+	height:35px;
+	width:300px;
+	border-radius:5px;
+	background-color:#EBF4FA;
+	margin:0.5% 0 0 1%;
+	cursor:text;
+}
+.searchbar p{
+	font-size:15px;
+	color:black;
+	font-family:monospace;
+	padding: 2.5% 0 0 4%;
+}
+.search{
+	display:none;
+}
+.icon{
+	margin:0.2% 2% 0 10%;
+	height:40px;
+	width:40px;
+	color:gray;
+	cursor:pointer;
+}
+.icon:hover{
+	color:black;
+}
+.icons{
+	margin:0.2% 2% 0 0.2%;
+	height:40px;
+	width:50px;
+	color:gray;
+	cursor:pointer;
+}
+.icons:hover{
+	color:black;
+}
+.in{
+	font-size:23px;
+	padding:0.2% 1% 0 38%;
+}
+.txt{
+	font-size:12px;
+	color:gray;
+	padding:15% 1% 0 35%;
+}
+.user{
+	height:25px;
+	width:25px;
+	border-radius:30px;
+	margin:0.2% 0 0 20%;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+}
+.username{
+	font-size:15px;
+	color:gray;
+	padding:6% 0.5% 0 19%;
+}
+.menu{
+	margin:0.2% 0 0 1%;
+	height:40px;
+	width:90px;
+	cursor:pointer;
+}
+.try{
+	margin:0.7% 0 0 1%;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	color:brown;
+	font-size:12px;
+	text-decoration:underline;
+}
+.block1{
+	height:80px;
+	width:210px;
+	border-radius:8px;
+	margin:5% 0 0 12%;
+	background-color:white;
+	padding:1%;
+	float:left;
+}
+.block1 .head{
+	color:black;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	margin:5% 0 0 5%;
+}
+.block1 .view{
+	font-size:16px;
+	color:#0a66c2;
+	margin:8% 0 0 5%;
+	cursor:pointer;
+}
+.view:hover{
+	text-decoration:underline;
+}
+.block2{
+	height:150px;
+	width:570px;
+	padding:0.1%;
+	border-radius:8px;
+	margin:5% 0 0 0.5%;
+	float:left;
+}
+.block2 .menu{
+	height:65px;
+	width:100%;
+	background-color:white;
+	border-radius:8px;
+	display:flex;
+	gap:1.5%;
+	cursor:auto;
+}
+.menu .a{
+	height:30px;
+	width:50px;
+	border-radius:30px;
+	background-color:green;
+	margin:3% 0 0 2%;
+	text-align:center;
+	cursor:pointer;
+}
+.menu .a:hover{
+	background-color:#006400;
+}
+.a p{
+	font-size:18px;
+	color:white;
+	padding:10% 0 0 0;
+}
+.menu .b{
+	height:30px;
+	width:100px;
+	border-radius:30px;
+	margin:3% 0 0 0;
+	outline:1px solid gray;
+	text-align:center;
+	cursor:pointer;
+}
+.menu .b:hover{
+	background-color:#F5F5F5;
+	outline:2px solid gray;
+}
+.b p{
+	font-size:17px;
+	color:black;
+	padding:5% 0 0 0;
+}
+.menu .c{
+	height:30px;
+	width:100px;
+	border-radius:30px;
+	margin:3% 0 0 0;
+	outline:1px solid gray;
+	text-align:center;
+	cursor:pointer;
+}
+.menu .c:hover{
+	background-color:#F5F5F5;
+	outline:2px solid gray;
+}
+.c p{
+	font-size:17px;
+	color:black;
+	padding:5% 0 0 0;
+}
+.block2 .jobs{
+	height:90px;
+	width:98%;
+	margin: 2% 0 0 1%;
+	border-radius:8px;
+	background-color:white;
+	padding:1%;
+	display:flex;
+	gap:1%;
+	cursor:pointer;
+}
+.block2 .jobs:hover{
+	background-color:#F5F5F5;
+}
+.jobs .jobimgbox{
+	height:80px;
+	width:70px;
+	margin:2% 0 0 1%;
+	position:relative;
+}
+.jobimg1{
+	height:40px;
+	width:40px;
+	position:absolute;
+	background-image:url('https://media.licdn.com/dms/image/D4D0BAQHZ3nJYZ4S_pg/company-logo_100_100/0/1681560826114/talent21groupllc_logo?e=1712188800&v=beta&t=50LtAbX2NDRJRCmgFtzqtR2wVIJFtJzijMm36kPwzhY');
+	background-size:cover;
+	left:15;
+	top:10px;
+}
+.jobimg2{
+	height:40px;
+	width:40px;
+	position:absolute;
+	background-image:url('https://media.licdn.com/dms/image/C4E0BAQHEfHnMZfZBNA/company-logo_100_100/0/1630608465812/outscal_logo?e=1712188800&v=beta&t=hCJqv-fnnZi4geGTG_37IASlVawgMEKkjq3uuuXv1Y4');
+	background-size:cover;
+	left:30;
+	top:25px;	
+}
+.jobinfobox{
+	height:70px;
+	width:400px;
+	margin:2% 0 0 2%;
+}
+.jobinfobox p{
+	font-size:15px;
+	color:black;
+	padding: 3% 0 0 5%;
+}
+.viewjobs{
+	height:30px;
+	width:100px;
+	border-radius:30px;
+	outline:1.5px solid blue;
+	margin:2% 0 0 5%;
+	text-align:center;
+}
+.viewjobs:hover{
+	background-color:#EBF4FA;
+	outline:2px solid blue;
+}
+.viewjobs p{
+	font-size:15px;
+	color:blue;
+	padding:7% 0 0 0;
+}
+.otherinfo{
+	height:80px;
+	width:60px;
+	margin:2% 0 0 1%;
+}
+.otherinfo .date{
+	font-size:12px;
+	color:gray;
+	padding:0 0 0 60%;
+}
+.otherinfo .more{
+	font-size:28px;
+	color:black;
+	padding:20% 0 0 42%;
+}
+.block3{
+	height:250px;
+	width:280px;
+	background-color:white;
+	border-radius:8px;
+	margin:5% 0 0 2%;
+	float:left;
+}
+.ad{
+	height:250px;
+	width:280px;
+	background-color:white;
+	border-radius:5px;
+	margin:2% 0.5% 4% 0.5%;
+	padding:1%;
+}
+.ad .head{
+	font-size:12px;
+	color:gray;
+	margin:6% 0 2% 10%;
+}
+.ad .imgbox{
+	height:120px;
+	width:200px;
+	margin:0 0 0 16%;
+	display:flex;
+	justify-content:start;
+}
+.ad .imgbox .img1{
+	height:90px;
+	width:90px;
+	border-radius:50px;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+	margin:5% 0 0 2%
+}
+.ad .imgbox .img2{
+	height:90px;
+	width:90px;
+	background-image:url('https://media.licdn.com/dms/image/C4D0BAQHKjQFwtVCmSg/company-logo_100_100/0/1660627573367/state_bank_of_india_logo?e=1712188800&v=beta&t=9rV9htW6VlyCoJ8Sub6LzPrO0kyT20D0I8gAps9_4P8');
+	background-size:cover;
+	margin:5% 0 0 5%
+}
+.ad .hire{
+	font-size:15px;
+	color:gray;
+	margin:2% 0 0 2%;
+}
+.ad .follow{
+	height:20px;
+	width:80px;
+	padding:1%;
+	border-radius:30px;
+	outline:1px solid blue;
+	margin:5% 0 0 35%;
+	text-align:center;
+	font-size:17px;
+	color:blue;
+}
+.ad .follow:hover{
+	background-color:#EBF4FA;
+	cursor:pointer;
+}
+.footer{
+	height:200px;
+	width:250px;
+	border-radius:5px;
+	margin:2% 0.5% 2% 11%;
+}
+.hh{
+	height:20px;
+	width:220px;
+	margin:4% 0 0 5%;
+	display:flex;
+	justify-content:start;
+	gap:10%;
+	font-size:12px;
+	color:gray;
+}
+.hh div:hover{
+	color:blue;
+	text-decoration:underline;
+}

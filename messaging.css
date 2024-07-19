@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#f4f2ee;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	height:52px;
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.logo{
+	margin:0.4% 0 0 12%;
+	cursor:pointer;
+}
+.navcontent{
+	display:flex;
+	justify-content:start;
+}
+.searchbar{
+	height:35px;
+	width:300px;
+	border-radius:5px;
+	background-color:#EBF4FA;
+	margin:0.5% 0 0 1%;
+	cursor:text;
+}
+.searchbar p{
+	font-size:15px;
+	color:black;
+	font-family:monospace;
+	padding: 2.5% 0 0 4%;
+}
+.search{
+	display:none;
+}
+.icon{
+	margin:0.2% 2% 0 10%;
+	height:40px;
+	width:40px;
+	color:gray;
+	cursor:pointer;
+}
+.icon:hover{
+	color:black;
+}
+.icons{
+	margin:0.2% 2% 0 0.2%;
+	height:40px;
+	width:50px;
+	color:gray;
+	cursor:pointer;
+}
+.icons:hover{
+	color:black;
+}
+.in{
+	font-size:23px;
+	padding:0.2% 1% 0 38%;
+}
+.txt{
+	font-size:12px;
+	color:gray;
+	padding:15% 1% 0 35%;
+}
+.user{
+	height:25px;
+	width:25px;
+	border-radius:30px;
+	margin:0.2% 0 0 20%;
+	background-image:url('https://www.muraldecal.com/en/img/arc213-png/folder/products-detalle-png/stickers-popeye-the-sailor-man.png');
+	background-size:cover;
+}
+.username{
+	font-size:15px;
+	color:gray;
+	padding:6% 0.5% 0 19%;
+}
+.menu{
+	margin:0.2% 0 0 1%;
+	height:40px;
+	width:90px;
+	cursor:pointer;
+}
+.try{
+	margin:0.7% 0 0 1%;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	color:brown;
+	font-size:12px;
+	text-decoration:underline;
+}
+.block1{
+	height:665px;
+	width:800px;
+	border-radius:8px;
+	margin:5% 0 0 12%;
+	background-color:white;
+	float:left;
+}
+.block1 .a{
+	height:40px;
+	width:100%;
+	display:flex;
+}
+.block1 .a .a1{
+	height:95%;
+	width:40%;
+	outline:0.1px solid #BCC6CC;
+	border-radius:5px;
+	display:flex;
+	justify-content:start;
+	gap:2%;
+	padding:0.1%;
+}
+.messagetxt{
+	color:black;
+	font-size:16px;
+	margin:3% 0 0 3%;
+}
+.option{
+	height:35px;
+	width:35px;
+	border-radius:30px;
+	margin:0.6% 0 0 0;
+	font-size:23px;
+	color:gray;
+	text-align:center;
+	cursor:pointer;
+}
+.option:hover{
+	background-color:#BCC6CC;
+}
+.block1 .a .a2{
+	height:95%;
+	width:60%;
+	outline:0.1px solid #BCC6CC;
+	border-radius:5px;
+	display:flex;
+	gap:2%;
+	padding:0.1%;
+}
+.block1 .b{
+	height:625px;
+	width:100%;
+	display:flex;
+}
+.block1 .b .b1{
+	height:100%;
+	width:40%;
+	outline:0.1px solid #BCC6CC;
+	padding:0.1%;
+}
+.b .b1 .searchbar{
+	height:30px;
+	width:290px;
+	border-radius:2px;
+	background-color:#EBF4FA;
+	margin:1.5% 0 0 4% ;
+	display:flex;
+	gap:2%;
+	cursor:pointer;
+}
+.b1 .searchbar:hover{
+	outline:2px solid black;
+}
+.b .b1 .searchbar .txt{
+	font-size:15px;
+	color:gray;
+}
+.b .b1 .msgopt{
+	height:40px;
+	width:100%;
+	margin:1% 0 0 0;
+	display:flex;
+}
+.b1 .msgopt .optblock{
+	height:40px;
+	width:50%;
+	text-align:center;
+	cursor:pointer;
+}
+.msgopt .optblock:hover{
+	background-color:#F5F5F5;
+}
+.b1 .msgopt .txt1{
+	font-size:18px;
+	color:green;
+	margin:7% 0 0 0;
+}
+.b1 .msgopt .txt2{
+	font-size:18px;
+	color:gray;
+	margin:7% 0 0 0;
+}
+.b1 .msgbox{
+	height:90px;
+	width:98%;
+	background-color:#EBF4FA;
+	margin:1% 0 0 0;
+	display:flex;
+	outline:0.1px solid gray;
+	padding:1%;
+	cursor:pointer;
+}
+.b1 .msgbox:hover{
+	background-color:#F5F5F5;
+}
+.b1 .msgbox .senderimg{
+	height:50px;
+	width:50px;
+	background-image:url('https://media.licdn.com/dms/image/C560BAQHe1WHuV51bTw/company-logo_200_200/0/1630610358389/linkedin_social_selling_logo?e=1712188800&v=beta&t=1cyJYNd7yDYq6BzBMe48442Z7nIIFaVMnr89-sBxb5g');
+	background-size:cover;
+	margin:5% 0 0 5%;
+}
+.b1 .msgbox .sendertxt{
+	height:100%;
+	width:250px;
+}
+.b1 .msgbox .sendertxt .msghead{
+	font-size:15px;
+	color:black;
+	margin:6% 0 0 4%;
+}
+.b1 .msgbox .sendertxt .msgcontent{
+	font-size:13px;
+	color:gray;
+	margin:1% 0 0 4%;
+}
+.block1 .b .b2{
+	height:100%;
+	width:60%;
+	outline:0.1px solid #BCC6CC;
+	padding:0.1%;
+}
+.b .b2 .openmsgbox{
+	height:500px;
+	width:98%;
+	padding:1%;
+}
+.b .b2 .openmsgbox .msgblock1{
+	height:20px;
+	width:100%;
+	background-color:#F5F5F5;
+	margin:2% 0 0 0;
+	padding:1%;
+}
+.openmsgbox .msgblock1 .msgtitle{
+	color:gray;
+	font-size:12px;
+	margin:0.5% 0 0 2%;
+	display:flex;
+}
+.openmsgbox .mainmsgbox{
+	height:300px;
+	width:100%;
+	display:flex;
+}
+.openmsgbox .mainmsgbox .senderdp{
+	height:40px;
+	width:40px;
+	background-image:url('https://media.licdn.com/dms/image/C560BAQHe1WHuV51bTw/company-logo_200_200/0/1630610358389/linkedin_social_selling_logo?e=1712188800&v=beta&t=1cyJYNd7yDYq6BzBMe48442Z7nIIFaVMnr89-sBxb5g');
+	background-size:cover;
+	margin:4% 0 0 2%;
+}
+.mainmsgcontent{
+	height:400px;
+	width:400px;
+	margin:4% 0 0 2%;
+}
+.mainmsgcontent .headname{
+	color:black;
+	font-size:12px;
+}
+.thistxt{
+	color:black;
+	font-size:13.5px;
+	padding:2% 0 0 0;
+}
+.userresponce{
+	height:40px;
+	width:370px;
+	margin:1% 0 0 3%;
+	display:flex;
+	gap:1%;
+}
+.userresponce .r{
+	height:30px;
+	width:180px;
+	border-radius:30px;
+	outline:2px solid blue;
+	text-align:center;
+	cursor:pointer;
+}
+.r:hover{
+	background-color:rgba(51, 203, 237,0.2);
+}
+.r p{
+	color:blue;
+	margin:3% 0 0 0;
+}
+.block2{
+	height:260px;
+	width:310px;
+	border-radius:8px;
+	margin:5% 0 0 2%;
+	background-color:white;
+	float:left;
+}
+.block2 .ad{
+	height:260px;
+	width:100%;
+	background-image:url('https://media.licdn.com/dms/image/D4E10AQHKYo3oznrtNQ/image-shrink_1280/0/1683028344859?e=1704549600&v=beta&t=vlrGo1iZRRD4ZDCq28B5m9iX2fBD4riEgwvlaI8j5pg');
+	background-size:cover;
+}
+.footer{
+	height:200px;
+	width:250px;
+	border-radius:5px;
+	margin:2% 0.5% 2% 14%;
+}
+.hh{
+	height:20px;
+	width:220px;
+	margin:4% 0 0 5%;
+	display:flex;
+ 	justify-content:start;
+	gap:10%;
+	font-size:12px;
+	color:gray;
+}
+.hh div:hover{
+	color:blue;
+	text-decoration:underline;
+}
